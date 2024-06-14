@@ -1,0 +1,93 @@
+/* Custom styles */
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff; /* White */
+    border-bottom: 1px solid #e5e5e5; /* Light gray */
+  }
+  
+  .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #141414; /* Eerie Black */
+  }
+  
+  .navbar-nav .nav-link {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #141414; /* Eerie Black */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #10c9c3; /* Robin Egg Blue */
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 0;
+  }
+  
+  section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #141414; /* Eerie Black */
+  }
+  
+  section p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #787878; /* Sonic Silver */
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #10c9c3; /* Robin Egg Blue */
+    border-color: #10c9c3; /* Robin Egg Blue */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0a968f; /* Darker shade of Robin Egg Blue */
+    border-color: #0a968f; /* Darker shade of Robin Egg Blue */
+  }
+  
+  /* About section */
+  #about img {
+    display: block;
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #141414; /* Eerie Black */
+    color: #787878; /* Sonic Silver */
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  /* overlay css */
+
+  .overlay-container {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .overlay:hover {
+    opacity: 1;
+  }
